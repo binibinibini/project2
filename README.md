@@ -17,6 +17,8 @@
 
 <br>
 
+[댓글 레이블링 지침](https://docs.google.com/spreadsheets/d/1xlZrJ23rKn06P2ixTw3bmeqQuYafdGcx/edit?usp=drive_link&ouid=116413280130938266406&rtpof=true&sd=true)
+
 ## 3. 사용 기술 스택
 
 Python, Pandas, Scikit-learn, SQL, PyTorch …
