@@ -19,30 +19,32 @@
 
 [댓글 레이블링 지침](https://docs.google.com/spreadsheets/d/1xlZrJ23rKn06P2ixTw3bmeqQuYafdGcx/edit?usp=drive_link&ouid=116413280130938266406&rtpof=true&sd=true) <br>
 
-[다른 조원들 설문 조사 결과](https://docs.google.com/spreadsheets/d/1zeiw7QfgHnu56ry7TomvT-1BYlWXpuuHFBVjeuvrCuc/edit?usp=drive_link) <br>
-
 [추가학습 데이터 300](https://drive.google.com/drive/folders/1DNIRDjtO6cUR180ovZMjauP22MMiu50H) <br>
+
+[다른 조원들 설문 조사 결과](https://docs.google.com/spreadsheets/d/1zeiw7QfgHnu56ry7TomvT-1BYlWXpuuHFBVjeuvrCuc/edit?usp=drive_link) <br>
 
 [Ground Truth](https://drive.google.com/file/d/16maHwAYzigGM_sB6r2KHDJNLeRiCHHoJ/view?usp=drive_link) <br>
 
 
-## 3. 사용 기술 스택
+## 3. 사용 기술
 
-Python, Pandas, Scikit-learn, SQL, PyTorch …
-
-협업툴 (Git, Notion, Slack) → 필요하면
+Python, Pandas, NumPy, PyTorch, Scikit-learn
 
 <br>
 
-## 4. 본인 역할 (팀 프로젝트일 경우 필수!)
+## 4. 역할
 
-데이터 전처리, EDA
+- 데이터 수집 및 전처리
 
-모델 학습/튜닝
+YouTube Data API를 활용하여 분석 목적에 맞는 댓글 데이터를 수집하고, 불필요한 노이즈를 제거하는 정제 작업을 수행했습니다.
 
-시각화, 보고서 작성
+- 모델 학습 및 검증
 
-배포/문서화 등
+팀원들과의 협의를 통해 모델의 목표가 되는 6가지 감정 분류 체계를 수립했습니다. 이후, 정제된 데이터로 모델을 학습시키고 새로운 댓글에 대한 추론 결과를 확인하며 모델의 실효성을 검증했습니다.
+
+- 인사이트 시각화 및 발표 자료
+
+모델의 분석 결과를 바탕으로 핵심 인사이트를 도출하고, 이를 레이더 차트, 시계열 그래프 등으로 시각화하고, 프로젝트의 전 과정을 담은 최종 발표자료(PPT)를 작성하여 결과를 효과적으로 전달했습니다.
 
 <br>
 
