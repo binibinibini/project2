@@ -18,6 +18,9 @@
 <br>
 
 [댓글 레이블링 지침](https://docs.google.com/spreadsheets/d/1xlZrJ23rKn06P2ixTw3bmeqQuYafdGcx/edit?usp=drive_link&ouid=116413280130938266406&rtpof=true&sd=true)
+[다른 조원들 설문 조사 결과](https://docs.google.com/spreadsheets/d/1zeiw7QfgHnu56ry7TomvT-1BYlWXpuuHFBVjeuvrCuc/edit?usp=drive_link)
+[추가학습 데이터 300](https://drive.google.com/drive/folders/1DNIRDjtO6cUR180ovZMjauP22MMiu50H)
+[Ground Truth](https://drive.google.com/file/d/16maHwAYzigGM_sB6r2KHDJNLeRiCHHoJ/view?usp=drive_link)
 
 ## 3. 사용 기술 스택
 
