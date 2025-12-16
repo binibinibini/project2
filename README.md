@@ -72,7 +72,7 @@ __5. 결과 및 인사이트__
 
   <img width="764" height="449" alt="image" src="https://github.com/user-attachments/assets/a6a3e174-44d4-4bca-920e-fb3313d4883d" />
 
-  
+<br>
 
 __6. 프로젝트 담당 역할__
 
