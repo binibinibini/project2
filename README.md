@@ -1,6 +1,5 @@
 # project2
 
-
 ## 유튜브 댓글 감정 분석 모델(FORA) 개발 
 
 __1. 프로젝트 개요__
@@ -34,8 +33,13 @@ Hugging Face의 transformers 라이브러리를 기반으로, 기존의 한국�
 - 모델 파인튜닝
   - 모델 유형 :  모델을 다중 레이블 분류 문제로 설정하여, 댓글 하나가 6가지 감정의 강도를 동시에 가질 수 있도록 학습했습니다.
   - 최적화 : F1 스코어를 최적 모델 저장 기준으로 설정하여, 모델의 성능을 최대화했습니다.
- 
-- Ground Truth 확립
+
+- 댓글 레이블링 지침
+  
+  <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/d028a6f8-ceea-4785-a6b9-96e82ef4cc52" />
+
+   
+- Ground Truth 확립 <br>
   다른 조원들의 신뢰성 검증을 거쳐 다수결 판단에 따른 최종 레이블을 확립하여 데이터의 객관성을 확보했습니다.
   
   <img width="665" height="361" alt="image" src="https://github.com/user-attachments/assets/d7b7dc45-718d-44c4-9f6c-e2a6bef20589" />
@@ -43,32 +47,31 @@ Hugging Face의 transformers 라이브러리를 기반으로, 기존의 한국�
 <br>
 
 __4. 모델 성능 평가 및 정확도__
-
-Top1 정확도 : 모델이 예측한 가장 높은 감정(Top1)이 실제 감정과 일치하는 비율 <br>
-Top1 또는 Top2 정확도 : 모델의 Top1 또는 Top2 감정 중 하나라도 실제 감정과 일치하는 비율
+  Top1 정확도 : 모델이 예측한 가장 높은 감정(Top1)이 실제 감정과 일치하는 비율 <br>
+  Top1 또는 Top2 정확도 : 모델의 Top1 또는 Top2 감정 중 하나라도 실제 감정과 일치하는 비율
 
 <img width="700" height="370" alt="image" src="https://github.com/user-attachments/assets/0acc6bc0-32bb-4eaf-9840-44b3110b5ad4" />
 
+<br>
+
+__5. 결과 및 인사이트__
+
+  [제품] 
+  편의점 3사 크림빵 관련 댓글 약 9,000개를 분석하여, 6가지 핵심 감정 지표를 기준으로, 각 브랜드가 소비자에게 주는 전체적인 감정적 인상을 종합적으로 분석하고 비교했습니다. <br>
+  
+  <img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/3787915d-51b2-4f1a-8cee-ea68ac54ada9" />
 
 <br>
 
-[댓글 레이블링 지침](https://docs.google.com/spreadsheets/d/1xlZrJ23rKn06P2ixTw3bmeqQuYafdGcx/edit?usp=drive_link&ouid=116413280130938266406&rtpof=true&sd=true) <br>
+  [정책] 고교학점제에 대한 7년간의 여론을 시계열로 분석하여, 정책에 대한 대중의 핵심 우려가 시행 전 '가능성에 대한 기대'에서 시행 후 '실행의 혼선에 대한 분노'로 변화했음을 발견했습니다.<br>
 
-[추가학습 데이터 300](https://drive.google.com/drive/folders/1DNIRDjtO6cUR180ovZMjauP22MMiu50H) <br>
-
-[Ground Truth](https://drive.google.com/file/d/16maHwAYzigGM_sB6r2KHDJNLeRiCHHoJ/view?usp=drive_link) <br>
+  <img width="700" height="340" alt="image" src="https://github.com/user-attachments/assets/3a9278b9-208e-4488-84e8-b41c0df3bda1" />
 
 
-<br>
+  [기술] 과거 영상 대비 최근 영상 댓글에서는 공포 감정의 평균 점수가 크게 상승하며, 기대와 공포가 높은 수준에서 양립하는 여론을 형성했습니다.<br>
 
-__5. 결과 & 성과__
+  <img width="764" height="449" alt="image" src="https://github.com/user-attachments/assets/a6a3e174-44d4-4bca-920e-fb3313d4883d" />
 
-- 인사이트 <br>
-  [제품] 브랜드별 감정 특 비교 및 리스크 요인 도출: 편의점 3사 크림빵 관련 댓글 약 9,000개를 분석하여, 6가지 핵심 감정 지표를 기준으로, 각 브랜드가 소비자에게 주는 전체적인 감정적 인상을 종합적으로 분석하고 비교했습니다. 이를 통해 브랜드별 강점과 잠재적 리스크를 파악하고, 데이터 기반의 경쟁 전략 수립 근거를 제시했습니다 .<br>
-
-  [정책] 7년간의 여론 변화 추적 및 핵심 이슈 발견: 고교학점제에 대한 7년간의 여론을 시계열로 분석하여, 정책에 대한 대중의 핵심 우려가 시행 전 '가능성에 대한 기대'에서 시행 후 '실행의 혼선에 대한 분노'로 변화했음을 발견했습니다.<br>
-
-  [기술] 여론 형성 구조 분석: 댓글 그래프 분석을 통해 특정 기술에 대한 여론이 어떻게 커뮤니티로 나뉘고, 어떤 의견이 논쟁을 주도하는지 그 구조적 특성을 파악했습니다.<br>
   
 
 __6. 프로젝트 담당 역할__
